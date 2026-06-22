@@ -93,5 +93,8 @@ Simply open the `index.html` file in your browser or use the Live Server extensi
 ## Author
 
 Rohit Priyadarshy
+Ashish
+Suryosikha
+Abhishek
 
 Frontend Developer
