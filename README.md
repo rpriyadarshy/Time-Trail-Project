@@ -1,83 +1,97 @@
-# Article-Architects_010
+# Time-Trail
 
-## Introduction
-Time-Trail is a web application designed to help users manage their time and tasks efficiently. It includes features like user authentication (login), dynamic menu interactions, and responsive design, solving the problem of effective time management and task tracking.
+## Overview
 
-## Project Type
-Frontend 
+Time-Trail is a frontend web application designed to help users manage their time efficiently through an intuitive and responsive user interface. The project focuses on delivering a seamless user experience with user authentication pages, dynamic interactions, responsive layouts, and visually appealing design components.
 
-## Deplolyed App
-Frontend: https://66a7b0d403f210227e7fe5b8--hilarious-lamington-6e806d.netlify.app   ```
+The application demonstrates core frontend development concepts including responsive web design, DOM manipulation, event handling, and user-centric interface development.
 
-Figma Frontend: https://669d36999171a69e0c37a6ee--resplendent-sunshine-166089.netlify.app/
+## Live Demo
 
-## Directory Structure
-time-trail/  ```
-├─FIGMA/Figma ```
-       ├─assets/ ```
-           └─(all figma layout images used in the project) ```
-       ├─ .DS_Store  ```
-       ├─ .gitignore  ```
-       ├─index.css    ```
-       ├─index.css.map  ```
-       ├─index.html     ```
-       ├─ style.css     ```
-       ├─ style.css.map   ```
-       ├─ style.scss     ```     
-├─ images/   ```
-│  └─ (all images used in the project)  ```
-├─ index.html   ```
-├─ index.js     ```
-├─ loading1.html    ```
-├─ login.html   ```
-├─ signup.html   ```
-├─ pricing.html   ```
-├─ blog.html    ```
-├─ worinprogress.html   ```
-├─ pricing.css   ```
-├─ blog.css     ```
-├─ package-lock.json    ```
-├─ .gitignore   ```
-├─ package.json   ```
-└─ README.md   
-
-## Video Walkthrough of the project
-https://drive.google.com/file/d/1Vctjv4_xx2s7s5wzpWmzwkrDqHeXSmB-/view?usp=sharing 
+🔗 Live Application: https://66a7b0d403f210227e7fe5b8--hilarious-lamington-6e806d.netlify.app
 
 ## Features
-- User Authentication: Login functionality with email and password.
-- Responsive Design: Uses Bootstrap to ensure the application is responsive and works on various devices.
-- Dynamic Menu: Interactive menu with hover effects.
-- Loading Screen: Custom loading screen for a better user experience.
 
-## design decisions or assumptions
-- Used Bootstrap for rapid development and responsive design.
-- Event listeners were used for menu interactions to ensure dynamic user experience.
-- Ensured the app is lightweight and fast by optimizing image sizes and minimizing JavaScript.
+* User Authentication Interface (Login & Signup)
+* Responsive Design for Desktop, Tablet, and Mobile Devices
+* Dynamic Navigation and Interactive Menus
+* Loading Screens for Enhanced User Experience
+* Modern and Clean UI Design
+* Optimized Images and Lightweight Performance
+* Multiple Pages Including Home, Blog, Pricing, and Authentication Pages
 
-## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
+## Project Structure
+
+```text
+time-trail/
+├── FIGMA/
+├── images/
+├── index.html
+├── index.js
+├── login.html
+├── signup.html
+├── blog.html
+├── pricing.html
+├── loading1.html
+├── loading2.html
+├── workinprogress.html
+├── blog.css
+├── pricing.css
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Bootstrap
+
+## Design Decisions
+
+* Bootstrap was used to ensure responsiveness and faster UI development.
+* JavaScript event listeners were implemented to provide dynamic user interactions.
+* Optimized assets and images were used to improve loading performance.
+* The project structure was kept simple and modular for easy maintenance.
+
+## Getting Started
+
+### Clone the Repository
 
 ```bash
-- Clone the repository:
-https://github.com/SURYOSIKHA/Article-Architects_010.git
-- Navigate to the project directory:
-cd Article-Architects_010
-- Open the index.html file in your web browser to start the application.
+git clone https://github.com/rpriyadarshy/Time-Trail-Project.git
 ```
+
+### Navigate to the Project Directory
+
+```bash
+cd Time-Trail-Project
+```
+
+### Run the Project
+
+Simply open the `index.html` file in your browser or use the Live Server extension in VS Code.
 
 ## Usage
-- Open index.html in a web browser to start the application.
-- The login page can be accessed at login.html.
-```bash
-Copy code
-- Example usage of starting the project
-open index.html
-```
 
-## Technology Stack
+1. Open the application through `index.html`.
+2. Navigate through the available pages.
+3. Access authentication pages using Login and Signup.
+4. Explore pricing and blog sections.
+5. Experience responsive layouts across different screen sizes.
 
-- HTML: For structuring the web pages.
-- CSS: For styling the web pages.
-- JavaScript: For dynamic interactions and DOM manipulation.
-- Bootstrap: For responsive design and pre-built UI components.
+## Future Improvements
+
+* Backend Integration
+* User Data Persistence
+* Task Management Features
+* Dashboard Analytics
+* Enhanced Authentication System
+
+## Author
+
+Rohit Priyadarshy
+
+Frontend Developer
